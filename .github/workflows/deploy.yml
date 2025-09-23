@@ -134,7 +134,7 @@ jobs:
           echo "**Branch:** gitops" >> $GITHUB_STEP_SUMMARY
           echo "**Artifact Registry:** ${{ env.ARTIFACT_REGISTRY_LOCATION }}-docker.pkg.dev/${{ env.GCP_PROJECT_ID }}/${{ env.ARTIFACT_REGISTRY_REPOSITORY }}" >> $GITHUB_STEP_SUMMARY
           if [ "${{ needs.deploy.result }}" == "success" ]; then
-            echo "✅ **Status:** Deployment successful" >> $ITHUB_STEP_SUMMARY
+            echo "✅ **Status:** Deployment successful" >> $GITHUB_STEP_SUMMARY
             echo "- 🔨 Built and pushed Docker images to Artifact Registry" >> $GITHUB_STEP_SUMMARY
             echo "- 📝 Updated Helm chart values" >> $GITHUB_STEP_SUMMARY
             echo "- 💾 Committed changes to repository" >> $GITHUB_STEP_SUMMARY
