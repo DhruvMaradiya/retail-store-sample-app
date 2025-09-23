@@ -4,9 +4,9 @@
 
 replicaCount: 1
 image:
-  repository: public.ecr.aws/aws-containers/retail-store-sample-ui
+  repository: us-central1-docker.pkg.dev/decent-rig-471906-h1/demo-private/ui
   pullPolicy: Always
-  tag: "1.2.2"
+  tag: "a5b6d1e"
 imagePullSecrets:
   - name: regcred
 nameOverride: ""
