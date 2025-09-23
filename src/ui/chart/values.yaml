@@ -6,7 +6,7 @@ replicaCount: 1
 image:
   repository: us-central1-docker.pkg.dev/decent-rig-471906-h1/demo-private/ui
   pullPolicy: Always
-  tag: "3a9163a"
+  tag: "d7c5eff"
 imagePullSecrets:
   - name: regcred
 nameOverride: ""
