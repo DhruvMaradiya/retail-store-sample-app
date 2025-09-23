@@ -68,11 +68,10 @@ resource "google_compute_router_nat" "nat" {
   nat_ip_allocate_option             = "AUTO_ONLY"
   source_subnetwork_ip_ranges_to_nat = "ALL_SUBNETWORKS_ALL_IP_RANGES"
 }
+
+
 # ---------------------------------------------------------------------
-# GKE AUTOPILOT CLUSTER
-# ---------------------------------------------------------------------
-# ---------------------------------------------------------------------
-# GKE AUTOPILOT CLUSTER
+# GKE AUTOPILOT CLUSTER 
 # ---------------------------------------------------------------------
 module "gke_autopilot" {
   source  = "terraform-google-modules/kubernetes-engine/google//modules/beta-autopilot-public-cluster"
