@@ -4,9 +4,9 @@
 
 replicaCount: 1
 image:
-  repository: public.ecr.aws/aws-containers/retail-store-sample-checkout
+  repository: us-central1-docker.pkg.dev/decent-rig-471906-h1/demo-private/checkout
   pullPolicy: Always
-  tag: "1.2.2"
+  tag: "0f44609"
 imagePullSecrets:
   - name: regcred
 nameOverride: ''
