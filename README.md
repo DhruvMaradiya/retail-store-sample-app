@@ -1,6 +1,7 @@
 # Retail Store Sample App - GitOps with GKE autopilot mode
 <img width="1326" height="667" alt="Screenshot from 2025-09-27 11-54-01" src="https://github.com/user-attachments/assets/72e36f43-90ac-4ffd-b3c2-707b3aa45de6" />
-[▶ Watch demo video](https://drive.google.com/file/d/1NOIha-nAlw0KCfXyhQFetMRnGe-fgj05/view)
+
+# [▶ Watch demo video](https://drive.google.com/file/d/1NOIha-nAlw0KCfXyhQFetMRnGe-fgj05/view) 
 
 ## Overview
 
